@@ -1,36 +1,36 @@
 # Elemental Escape
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+## Integrantes del Grupo
+* **Luana Galván**
+* **Juan Hracek**
+* **Felipe Salinas**
+* **Matías Siñani**
+* **Marco Antonio Choquehuanca**
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+---
 
-## Platforms
+## Descripción Corta del Juego
+**Elemental Escape** es un videojuego 2D de plataformas y puzzles cooperativo para dos jugadores, desarrollado en Java utilizando el framework LibGDX. El juego cuenta con dos personajes con habilidades opuestas y complementarias (un personaje de fuego y uno de agua), cuyas restricciones ante el entorno obligan a los jugadores a cooperar constantemente para avanzar. A través de un modo multijugador en red (cliente-servidor), ambos jugadores coordinan sus movimientos para interactuar con palancas, botones de presión, puertas y plataformas móviles a lo largo de 8 niveles originales con dificultad progresiva.
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
-- `html`: Web platform using GWT and WebGL. Supports only Java projects.
+---
 
-## Gradle
+## Tecnologías Utilizadas
+* **Lenguaje:** Java (Java 17 o superior)
+* **Framework:** LibGDX
+* **Gestor de Dependencias:** Gradle
+* **Plataforma Objetivo:** Desktop (LWJGL3)
+* **Control de Versiones:** Git & GitHub
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+---
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `html:dist`: compiles GWT sources. The compiled application can be found at `html/build/dist`: you can use any HTTP server to deploy it.
-- `html:superDev`: compiles GWT sources and runs the application in SuperDev mode. It will be available at [localhost:8080/html](http://localhost:8080/html). Use only during development.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+## Cómo Compilar y Ejecutar
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+### Requisitos Previos
+* Tener instalado **Java 17 JDK** o superior.
+* Tener instalado **Git**.
+* Un IDE de preferencia (ej. Eclipse IDE con el plugin Gradle de Buildship).
+
+### Pasos para Ejecutar
+1. **Clonar el repositorio:**
+   ```bash
+   git clone [https://github.com/JuanMartinHracek/Escape-Elemental.git](https://github.com/JuanMartinHracek/Escape-Elemental.git)
