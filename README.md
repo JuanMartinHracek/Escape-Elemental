@@ -34,3 +34,7 @@
 1. **Clonar el repositorio:**
    ```bash
    git clone [https://github.com/JuanMartinHracek/Escape-Elemental.git](https://github.com/JuanMartinHracek/Escape-Elemental.git)
+
+**Enlace a la Wiki del Proyecto (Propuesta Detallada):**
+
+[Ver la Propuesta Completa del Proyecto aquí](https://github.com/JuanMartinHracek/Escape-Elemental/wiki)
