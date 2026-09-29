@@ -7,6 +7,12 @@ y este proyecto adhiere a [Versionado Semántico](https://semver.org/lang/es/).
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-09-28
+
+### Changed
+- Código pasado a español: `Main` → `Juego`, `MenuScreen` → `MenuPrincipal`, `GameScreen` → `PantallaJuego`, `Player` → `Jugador`, `Level` → `Nivel`, `NetManager` → `GestorRed`, `Draw` → `Dibujo` (misma lógica, sin cambios de gameplay).
+- `Lwjgl3Launcher` ahora instancia `Juego`.
+
 ## [0.2.0] - 2026-09-24
 
 ### Added
